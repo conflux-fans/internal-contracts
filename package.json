@@ -1,6 +1,6 @@
 {
   "name": "conflux-internal-contracts",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Conflux Internal contracts",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/conflux-fans/internal-contracts/issues"
   },
-  "homepage": "https://github.com/conflux-fans/internal-contracts#readme"
+  "homepage": "https://github.com/conflux-fans/internal-contracts#readme",
+  "dependencies": {
+    "solidity-docgen": "^0.5.11"
+  }
 }

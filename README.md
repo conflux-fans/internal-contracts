@@ -37,32 +37,8 @@ contract YourContract {
 
 ### Internal Contract APIs
 
-AdminControl:
-* getAdmin(address contractAddr) view returns (address)
-* setAdmin(address contractAddr, address newAdmin)
-* destroy(address contractAddr)
-
-SponsorWhitelistControl:
-* getSponsorForGas(address contractAddr) view returns (address)
-* getSponsoredBalanceForGas(address contractAddr) view returns (uint)
-* getSponsoredGasFeeUpperBound(address contractAddr) view returns (uint)
-* getSponsorForCollateral(address contractAddr) view returns (address)
-* getSponsoredBalanceForCollateral(address contractAddr) view returns (uint)
-* isWhitelisted(address contractAddr, address user) view returns (bool)
-* isAllWhitelisted(address contractAddr) view returns (bool)
-* addPrivilegeByAdmin(address contractAddr, address[] memory addresses)
-* removePrivilegeByAdmin(address contractAddr, address[] memory addresses)
-* setSponsorForGas(address contractAddr, uint upperBound) payable
-* setSponsorForCollateral(address contractAddr) payable
-* addPrivilege(address[] memory)
-* removePrivilege(address[] memory)
-
-Staking:
-* getStakingBalance(address user) view returns (uint)
-* getLockedStakingBalance(address user, uint blockNumber) view returns (uint)
-* getVotePower(address user, uint blockNumber) view returns (uint)
-* deposit(uint amount) external
-* withdraw(uint amount) external
-* voteLock(uint amount, uint unlockBlockNumber) external
+* [AdminControl api](./docs/AdminControl.md)
+* [SponsorWhitelistControl api](./docs/SponsorWhitelistControl.md)
+* [Staking api](./docs/Staking.md)
 
 For detail explanation of these APIs [check here](https://github.com/Conflux-Chain/conflux-rust/tree/master/internal_contract)
