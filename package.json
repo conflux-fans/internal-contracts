@@ -4,7 +4,7 @@
   "description": "Conflux Internal contracts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "doc": "solidity-docgen -i ./contracts -o ./docs"
   },
   "repository": {
     "type": "git",
