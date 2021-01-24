@@ -1,0 +1,20 @@
+{
+  "name": "conflux-internal-contracts",
+  "version": "0.2.0",
+  "description": "Conflux Internal contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conflux-fans/internal-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conflux-fans/internal-contracts/issues"
+  },
+  "homepage": "https://github.com/conflux-fans/internal-contracts#readme"
+}
