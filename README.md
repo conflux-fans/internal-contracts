@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/conflux-internal-contracts.svg)](https://www.npmjs.com/package/conflux-internal-contracts)
 -----------------------
 
-Conflux Network have three internal contracts: `AdminControl`, `SponsorWhitelistControl`, `Staking`. You can find detail documentation about them at [conflux-rust repo](https://github.com/Conflux-Chain/conflux-rust/tree/master/internal_contract).
+Conflux Network have three [internal contracts](https://github.com/Conflux-Chain/conflux-rust/tree/master/internal_contract): `AdminControl`, `SponsorWhitelistControl`, `Staking`. 
 This is a npm module wrapper of the internal contracts, so you can easily get them throught npm.
 
 
@@ -14,8 +14,8 @@ $ npm install conflux-internal-contracts
 
 
 ### How to use
-If you are useing `truffle` or `cfxtruffle`, you can import internal contracts like below after install `conflux-internal-contracts`.
-Then you can initalize contract instance and invoke their methods.
+If you are using `truffle` or `cfxtruffle`, you can import internal contracts like below.
+After importing you can initalize contract instance and invoke their methods.
 
 ```js
 // SPDX-License-Identifier: MIT
