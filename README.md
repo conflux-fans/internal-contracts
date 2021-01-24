@@ -37,8 +37,8 @@ contract YourContract {
 
 ### Internal Contract APIs
 
-* [AdminControl api](./docs/AdminControl.md)
-* [SponsorWhitelistControl api](./docs/SponsorWhitelistControl.md)
-* [Staking api](./docs/Staking.md)
+* [AdminControl](./docs/AdminControl.md)
+* [SponsorWhitelistControl](./docs/SponsorWhitelistControl.md)
+* [Staking](./docs/Staking.md)
 
 For detail explanation of these APIs [check here](https://github.com/Conflux-Chain/conflux-rust/tree/master/internal_contract)
